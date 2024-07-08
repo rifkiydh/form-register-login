@@ -262,7 +262,37 @@ header {
 .login-register p a:hover{
     text-decoration: underline;
 }
+header {
+    padding: 10px 20px; /* Sesuaikan dengan kebutuhan Anda */
+}
+.wrapper {
+    width: 90%; /* Misalnya, 90% dari lebar layar */
+    max-width: 400px; /* Atur lebar maksimum sesuai kebutuhan Anda */
+    height: auto; /* Biarkan tinggi otomatis menyesuaikan konten */
+}
 
+.navigation a {
+    font-size: 0.9em; /* Sesuaikan dengan kebutuhan */
+    margin-left: 20px; /* Sesuaikan dengan kebutuhan */
+}
+
+.navigation .btnlogin-popup {
+    width: 100px; /* Sesuaikan dengan kebutuhan */
+    height: 40px; /* Sesuaikan dengan kebutuhan */
+    font-size: 0.9em; /* Sesuaikan dengan kebutuhan */
+    margin-left: 20px; /* Sesuaikan dengan kebutuhan */
+}
+.wrapper .form-box.register {
+    display: none;
+}
+
+.wrapper.active .form-box.register {
+    display: block;
+}
+body {
+    background-size: cover;
+    background-position: center;
+}
 
 
 
